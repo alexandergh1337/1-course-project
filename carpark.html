@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АВТОПАРК</title>
+    <script>
+    function showHeartIcon() {
+  var heartIcon = document.querySelector('.heart-icon');
+  heartIcon.style.display = 'inline-block';
+}
+    </script>
+    <link rel="icon" type="image/png" href="iconmain.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <ul class="info">
+          <li><i class="fas fa-phone" style="color: #EF5C40"></i>+1(23)-45-67-890</li>
+          <li><i class="fas fa-map-marker-alt" style="color: #51ACB4"></i>г. Москва, ул. Тверская, д. 1</li>
+          <li><i class="fab fa-discord" style="color: #EF5C40"></i>caRRent</li>
+          <li><i class="fas fa-envelope" style="color: #51ACB4"></i>support@carrent.com</li>
+        </ul>
+        <ul class="social">
+          <li><a href="https://youtube.com"><i class="fab fa-youtube" style="color: #EF5C40"></i></a></li>
+          <li><a href="https://vk.com"><i class="fab fa-vk" style="color: #51ACB4"></i></a></li>
+          <li><a href="https://web.telegram.org"><i class="fab fa-telegram" style="color: #EF5C40"></i></a></li>
+          <li><a href="https://tiktok.com"><i class="fab fa-tiktok" style="color: #51ACB4"></i></a></li>
+        </ul>
+    </header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="logo.svg" alt="Лого">
+        </a>
+        <h1 class="title">
+          <a href="index.html" style="text-decoration: none;">
+          <span class="title-part1">caR</span><span class="title-part2">Rent</span>
+        </h1></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О компании</a></li>
+          <li><a href="rental.html">Прокат</a></li>
+          <li><a href="rates.html">Тарифы</a></li>
+          <li><a href="carpark.html">Наш автопарк</a></li>
+          <li><a href="policy.html">Политика</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+    <span class="footer-dark">
+        <p>© 2023 caRRent</p>
+    </span>
+    <span id="ourCarParkSection">
+      <h1>НАШ АВТОПАРК</h1>
+    </span>
+    <span class="container47">
+      <img src="bmw1.png" alt="Изображение 1">
+      <img src="ford1.png" alt="Изображение 2">
+      <img src="chevrolet1.png" alt="Изображение 3">
+      <img src="mb1.png" alt="Изображение 4">
+      <img src="toyota1.png" alt="Изображение 5">
+      <img src="tesla1.png" alt="Изображение 6">
+      <img src="vw1.png" alt="Изображение 7">
+      <img src="jeep1.png" alt="Изображение 8">
+      <img src="bmw1.png" alt="Изображение 9">
+      <img src="ford1.png" alt="Изображение 10">
+      <img src="chevrolet1.png" alt="Изображение 11">
+      <img src="mb1.png" alt="Изображение 12">
+      <img src="toyota1.png" alt="Изображение 13">
+      <img src="tesla1.png" alt="Изображение 14">
+      <img src="vw1.png" alt="Изображение 15">
+      <img src="jeep1.png" alt="Изображение 16">
+      <img src="bmw1.png" alt="Изображение 17">
+      <img src="ford1.png" alt="Изображение 18">
+      <img src="chevrolet1.png" alt="Изображение 19">
+      <img src="mb1.png" alt="Изображение 20">
+      <img src="toyota1.png" alt="Изображение 21">
+      <img src="tesla1.png" alt="Изображение 22">
+      <img src="vw1.png" alt="Изображение 23">
+      <img src="jeep1.png" alt="Изображение 24">
+    </span>
+    <span class="container67">
+      <button class="button67" onclick="showHeartIcon()">?</button>
+      <span class="heart-icon">&#x2665;</span>
+    </span>            
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+        
+        * {
+          margin: 0;
+          padding: 0;
+          font-family: 'Roboto', sans-serif;
+        }  
+        
+        .header {
+            background-color: #565252;
+            color: #EDE9E9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            margin: 0;
+        }
+        
+        .header ul {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        .header ul li {
+          margin-right: 20px;
+        }
+        
+        .header .info i {
+          margin-right: 5px;
+        }
+        
+        .header .social i {
+          margin-right: 10px;
+          font-size: 25px;
+        }
+        
+        .header .social li:last-child {
+          margin-right: 0;
+        }
+        
+        .header .social a {
+          display: block;
+          width: 25px;
+          height: 25px;
+          transition: all 0.3s ease-in-out;
+        }
+        
+        .header .social a:hover {
+          opacity: 0.8;
+          transform: rotate(360deg);
+        }
+        
+        .header .social a:hover i {
+          transition: transform 0.5s ease-in-out;
+          transform: rotate(360deg);
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #FFFBF8;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            height: 70px;
+        }
+          
+        .navbar .logo {
+            display: block;
+            width: 150px;
+        }
+          
+.navbar .logo img {
+    max-width: 100%;
+    transform: scale(0.9);
+}
+  
+.navbar .title {
+  margin-left: -725px;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+}
+        
+.navbar .title::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: -5px;
+          left: 0;
+          background: linear-gradient(to right, #EF5C40 50%, #51ACB4 50%); /* Градиентный фон */
+          visibility: hidden;
+          transform: scaleX(0);
+          transition: all 0.3s ease-in-out 0s;
+}
+
+        .navbar .title:hover::before {
+          visibility: visible;
+          transform: scaleX(1);
+        }
+        
+        .navbar .title-part1 {
+            color: #EF5C40;
+        }
+          
+        .navbar .title-part2 {
+            color: #51ACB4;
+        }
+        
+        .navbar .nav-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+          
+        .navbar .nav-links li {
+            margin: 0 20px;
+            font-size: 18px;
+        }
+          
+        .navbar .nav-links a {
+            color: #8B8888;
+            text-decoration: none;
+            position: relative;
+        }
+          
+        .navbar .nav-links a::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: #F41313;
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: all 0.3s ease-in-out 0s;
+        }
+          
+        .navbar .nav-links a:hover::before {
+            visibility: visible;
+            transform: scaleX(1);
+        }
+          
+        .navbar .nav-links a:hover {
+            color: #F41313;
+            text-shadow: 2px 2px 5px #FFF;
+        }
+
+.container47 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  animation: fadeIn 1s;
+  top: 750px;
+  transform: translateY(-50%);
+}
+
+.container47 img {
+  max-height: 200px;
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.container47 img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+        
+.footer-dark {
+      background-color: #222;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      box-sizing: border-box;
+      color:#FFF;
+      top: 1650px;
+      height:fit-content;
+}
+
+.footer-dark p {
+  text-align: center;
+}
+
+#ourCarParkSection {
+  position: absolute;
+  left: 876px;
+  right: 876px;
+  top: 190px;
+  bottom: 712px;
+}
+
+#ourCarParkSection h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: left;
+  color: #292828;
+  width: 1024px;
+  margin-left: -27px;
+  margin-top: 7px;
+}
+
+.container67 {
+  position: relative;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.button67 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #FF4081;
+  color: #FFFFFF;
+  border-radius: 6px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button67:hover {
+  background-color: #D81B60;
+}
+
+@keyframes heart-appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.2) rotate(-45deg);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.2) rotate(-45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes heart-beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart-icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.2);
+  font-size: 90px;
+  color: #FF4081;
+  opacity: 0;
+  animation-name: heart-appear, heart-beat;
+  animation-duration: 1s, 2s;
+  animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6), linear;
+  animation-fill-mode: forwards;
+  filter: drop-shadow(0 0 10px rgba(255, 64, 129, 0.8));
+}
+</style>
+</body>
+</html>
